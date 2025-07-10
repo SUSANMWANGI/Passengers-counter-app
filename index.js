@@ -13,6 +13,8 @@ function increament(){
 function save(){
     let countStr = count + " -"
     saveEl.innerText+=countStr
+    countEl.textContent=0
+    count=0
     
     
 
